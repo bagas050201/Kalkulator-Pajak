@@ -7,12 +7,16 @@
  */
 /* eslint-disable prettier/prettier */
 
-import React from 'react';
+import React,{useEffect} from 'react';
 import Router from './src/config/router';
 import { NavigationContainer } from '@react-navigation/native';
-
+import SplashScreen from 'react-native-splash-screen'
 
 function App() {
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
+  
   return (
     <NavigationContainer>
       <Router/>
