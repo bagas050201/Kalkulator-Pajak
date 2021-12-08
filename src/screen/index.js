@@ -4,5 +4,7 @@ import PBB from './PBB';
 import BPHTB from './BPHTB';
 import Hotel from './Hotel';
 import Restoran from './Restoran';
+import InfoHotel from './infoHotel';
+import InfoBPHTB from './infoBPHTB';
 
-export {Home,PBB,BPHTB,Hotel,Restoran};
+export {Home,PBB,BPHTB,Hotel,Restoran,InfoHotel,InfoBPHTB};

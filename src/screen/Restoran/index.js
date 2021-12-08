@@ -42,7 +42,7 @@ export default function Restoran ({ navigation }) {
                         style={{margin:25,height:200,}}
                     />
 
-                    <View style={{width:360, height:320,backgroundColor:'white',marginLeft:25,marginTop:5,borderRadius:5,borderColor:'#485c77'}}>
+                    <View style={{width:360,alignSelf: 'flex-start',backgroundColor:'white',marginLeft:25,marginTop:5,borderRadius:5,borderColor:'#485c77'}}>
                         <View style={{backgroundColor:'#60A5FA',width:320,marginTop:15,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:18}}>
                             <Text style={{fontSize:22,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>Restoran</Text>
                         </View>
@@ -53,7 +53,7 @@ export default function Restoran ({ navigation }) {
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>Hasil</Text>
                             </View>
                             <View style={{height:45,backgroundColor:'#DBEAFE'}}>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Pajak yang harus dibayar : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{RestoranResult}</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Pajak yang harus dibayar : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{RestoranResult},00</Text></Text>
                             </View>
                         </View>
                         
@@ -74,7 +74,7 @@ export default function Restoran ({ navigation }) {
                             value={OmsetPerbulan}
                             onChangeText={text => setOmsetPerbulan(text)}
                         />
-                        <View style={{backgroundColor:'#60A5FA',width:170,marginTop:15,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:86}}>
+                        <View style={{backgroundColor:'#60A5FA',width:170,marginTop:15,marginBottom:10,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:86}}>
                             <TouchableOpacity style={{}} onPress={hitungPajakRestoran}>
                                 <Text style={{fontSize:18,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>
                                     Hitung Pajak
