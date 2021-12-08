@@ -33,7 +33,7 @@ export default function Restoran ({ navigation }) {
                 <ScrollView style={{}}>
                     
                     <View style={{backgroundColor:'#D6DCFC',width:250,marginTop:20,borderColor:'#3244CC',borderWidth:2,borderRadius:8,marginLeft:77}}>
-                        <Text style={{fontSize:22,textAlign:'center',marginTop:14,marginBottom:14,marginLeft:1,color:'#3244CC',fontWeight:'bold'}}>Pajak Restoran 2021</Text>
+                        <Text style={{fontSize:22,textAlign:'center',marginTop:14,marginBottom:14,marginLeft:1,color:'#3244CC',fontWeight:'bold'}}>Pajak Restoran</Text>
                     </View>
                     <WebView
                         source={{
@@ -44,13 +44,13 @@ export default function Restoran ({ navigation }) {
 
                     <View style={{width:360,alignSelf: 'flex-start',backgroundColor:'white',marginLeft:25,marginTop:5,borderRadius:5,borderColor:'#485c77'}}>
                         <View style={{backgroundColor:'#60A5FA',width:320,marginTop:15,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:18}}>
-                            <Text style={{fontSize:22,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>Restoran</Text>
+                            <Text style={{fontSize:22,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>RESTORAN</Text>
                         </View>
                         {RestoranResult && (
                         <>
                         <View style={{marginLeft:19,marginTop:13,marginRight:21,borderRadius:5,borderColor:'#60A5FA',borderWidth:2}}>
                             <View style={{height:35,backgroundColor:'#60A5FA'}}>
-                                <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>Hasil</Text>
+                                <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>HASIL</Text>
                             </View>
                             <View style={{height:45,backgroundColor:'#DBEAFE'}}>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Pajak yang harus dibayar : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{RestoranResult},00</Text></Text>

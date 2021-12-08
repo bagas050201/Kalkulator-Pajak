@@ -100,12 +100,12 @@ export default function Hotel ({ navigation }) {
                 <ScrollView style={{}}>
                     
                     <View style={{backgroundColor:'#FCFAD6',width:250,marginTop:20,borderColor:'#ADCC32',borderWidth:2,borderRadius:8,marginLeft:77}}>
-                        <Text style={{fontSize:22,textAlign:'center',marginTop:14,marginBottom:14,marginLeft:1,color:'#C9CC32',fontWeight:'bold'}}>Pajak Hotel 2021</Text>
+                        <Text style={{fontSize:22,textAlign:'center',marginTop:14,marginBottom:14,marginLeft:1,color:'#C9CC32',fontWeight:'bold'}}>Pajak Hotel</Text>
                     </View>
                     <View style={{backgroundColor:'#F59E0B',width:170,marginTop:15,borderColor:'#F59E0B',borderWidth:2,borderRadius:5,marginLeft:114}}>
                             <TouchableOpacity style={{}} onPress={() => navigation.navigate('InfoHotel')}>
                                 <Text style={{fontSize:16,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>
-                                    Lihat Informasi Tentang Pajak Hotel
+                                    Informasi Pajak Hotel
                                 </Text>
                             </TouchableOpacity>
                         </View>
@@ -218,7 +218,7 @@ export default function Hotel ({ navigation }) {
 
                     <View style={{width:360,alignSelf: 'flex-start',backgroundColor:'white',marginLeft:25,marginTop:5,marginBottom:15,borderRadius:5,borderColor:'#485c77'}}>
                         <View style={{backgroundColor:'#60A5FA',width:320,marginTop:15,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:18}}>
-                            <Text style={{fontSize:20,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>Pajak Hotel Perusahaan</Text>
+                            <Text style={{fontSize:18,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>PAJAK HOTEL PERUSAHAAN</Text>
                         </View>
                         {HotelResult2 && (
                         <>

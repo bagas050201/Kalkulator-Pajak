@@ -1,25 +1,37 @@
 /* eslint-disable prettier/prettier */
-import React, {useState} from 'react';
+import React from 'react';
 import {styles} from '../../assets/css';
 import {View, ScrollView,Image,Text,TouchableOpacity} from 'react-native';
 import imageHome from '../../assets/icon/home.png';
 import imageOrder from '../../assets/icon/order.png';
-import imageAccount from '../../assets/icon/account.png';
 import imageInbox from '../../assets/icon/inbox.png';
+import imageAccount from '../../assets/icon/account.png';
+import BPHTBHibah from '../../components/molecules/BPHTBHibah';
 
-const BPHTB = (props) => {
+export default function BPHTB ({ navigation }) {
     return (
         <View style={styles.container}>
                 {/*content*/}
-                <ScrollView style={styles.main}>
-                    <Text>BPHTB</Text>
+                <ScrollView style={{}}>
+                    <View style={{backgroundColor:'#FCDBD6',width:250,marginTop:20,borderColor:'#CC4F34',borderWidth:2,borderRadius:8,marginLeft:77}}>
+                        <Text style={{fontSize:19,textAlign:'center',marginTop:14,marginBottom:14,marginLeft:1,color:'#CC4F34',fontWeight:'bold'}}>Bea Perolehan Hak atas Tanah dan Bangunan</Text>
+                    </View>
+                    <View style={{backgroundColor:'#60A5FA',width:170,marginTop:15,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:114}}>
+                            <TouchableOpacity style={{}} onPress={() => navigation.navigate('InfoBPHTB')}>
+                                <Text style={{fontSize:16,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>
+                                    Informasi BPHTB
+                                </Text>
+                            </TouchableOpacity>
+                    </View>
+                    <BPHTBHibah/>
+                    
                 </ScrollView>
                     {/*bottom navigation*/}
                     
                     <View style={styles.bottomNav}>
 
                         <View style={styles.order}>
-                            <TouchableOpacity onPress={() => props.navigation.navigate('Home')}>
+                            <TouchableOpacity onPress={() => navigation.navigate('Home')}>
                                 <View style={{marginLeft:4,width: 26,height: 26,}}>
                                     <Image source={imageHome} />
                                 </View>
@@ -28,7 +40,7 @@ const BPHTB = (props) => {
                         </View>
 
                         <View style={styles.order}>
-                            <TouchableOpacity onPress={() => props.navigation.navigate('PBB')}>
+                            <TouchableOpacity onPress={() => navigation.navigate('PBB')}>
                                 <View style={{marginRight:2,width: 26,height: 26,}}>
                                     <Image source={imageInbox} />
                                 </View>
@@ -37,7 +49,7 @@ const BPHTB = (props) => {
                         </View>
 
                         <View style={styles.order}>
-                            <TouchableOpacity onPress={() => props.navigation.navigate('BPHTB')}>
+                            <TouchableOpacity onPress={() => navigation.navigate('BPHTB')}>
                                 <View style={{marginLeft:8,width: 26,height: 26,alignItems:'center',justifyContent:'center',}}>
                                     <Image source={imageInbox} />
                                 </View>
@@ -46,7 +58,7 @@ const BPHTB = (props) => {
                         </View>
 
                         <View style={styles.order}>
-                            <TouchableOpacity onPress={() => props.navigation.navigate('Restoran')}>
+                            <TouchableOpacity onPress={() => navigation.navigate('Restoran')}>
                                 <View style={{marginLeft:12,width: 26,height: 25,alignItems:'center',justifyContent:'center',}}>
                                     <Image source={imageOrder} />
                                 </View>
@@ -55,7 +67,7 @@ const BPHTB = (props) => {
                         </View>
 
                         <View style={styles.order}>
-                            <TouchableOpacity onPress={() => props.navigation.navigate('Hotel')}>
+                            <TouchableOpacity onPress={() => navigation.navigate('Hotel')}>
                                 <View style={{marginLeft:1,width: 26,height: 25,alignItems:'center',justifyContent:'center',}}>
                                     <Image source={imageAccount} />
                                 </View>
@@ -63,15 +75,6 @@ const BPHTB = (props) => {
                             </TouchableOpacity>
                         </View>
                     </View>
-                    {/* <View style={styles.bottomNav}>
-                        <BottomNavbar onPress={() =>  props.navigation.navigate('Home')} img={imageHome} title="Home" />
-                        <BottomNavbar onPress={() => props.navigation.navigate('PBB')} img={imageInbox} title="PBB" />
-                        <BottomNavbar onPress={() => props.navigation.navigate('BPHTB')} img={imageInbox} title="BPHTB" />
-                        <BottomNavbar onPress={() => props.navigation.navigate('Restoran')} img={imageOrder} title="Restoran" />
-                        <BottomNavbar onPress={() => props.navigation.navigate('Hotel')} img={imageMore} title="Hotel" />
-                    </View> */}
         </View>
     );
-};
-
-export default BPHTB;
+}
