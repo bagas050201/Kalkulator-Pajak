@@ -115,34 +115,7 @@ export default function Hotel ({ navigation }) {
                             <Text style={{fontSize:20,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>PAJAK HOTEL DENGAN PELAYANAN</Text>
                         </View>
 
-                        {HotelResult && (
-                        <>
-                        <View style={{marginLeft:19,marginTop:13,marginRight:21,borderRadius:5,borderColor:'#FCD34D',borderWidth:2}}>
-                            <View style={{height:35,backgroundColor:'#FCD34D'}}>
-                                <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>DATA YANG ANDA INPUT</Text>
-                            </View>
-                            <View style={{height:140,backgroundColor:'#FEF3C7'}}>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Biaya Permalam : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{ShowbiayaHotel},00</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Berapa Hari : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowlamaWaktu} Hari</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Berapa Kamar : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowjumlahKamar} Kamar</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Service Charge : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowserviceCharge} %</Text></Text>
-                            </View>
-                        </View>
-
-                        <View style={{marginLeft:19,marginTop:13,marginRight:21,borderRadius:5,borderColor:'#34D399',borderWidth:2}}>
-                            <View style={{height:35,backgroundColor:'#34D399'}}>
-                                <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>Hasil</Text>
-                            </View>
-                            <View style={{height:200,backgroundColor:'#D1FAE5'}}>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total Harga Kamar Hotel : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countHargaKamar},00</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Pajak Service : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{HotelResult},00</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total dibayar jika menginap 1 hari : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countsewaHotel},00</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Menginap Selama : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{countKamarWaktu} Hari</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total yang harus dibayar : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countTotalBayar},00</Text></Text>
-                            </View>
-                        </View>
-                        </>
-                        )}
+                        
 
                         <Text
                             style={tailwind('mt-5 ml-6 text-gray-700 text-sm font-bold mb-2')}
@@ -213,6 +186,34 @@ export default function Hotel ({ navigation }) {
                             </TouchableOpacity>
                         </View>
                         
+                        {HotelResult && (
+                        <>
+                        <View style={{marginLeft:19,marginTop:13,marginRight:22,borderRadius:5,borderColor:'#FCD34D',borderWidth:2}}>
+                            <View style={{height:35,backgroundColor:'#FCD34D'}}>
+                                <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>DATA YANG ANDA INPUT</Text>
+                            </View>
+                            <View style={{height:145,backgroundColor:'#FEF3C7'}}>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Biaya Permalam : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowbiayaHotel}</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Berapa Hari : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowlamaWaktu}</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Berapa Kamar : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowjumlahKamar}</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Service Charge : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowserviceCharge}</Text></Text>
+                            </View>
+                        </View>
+
+                        <View style={{marginLeft:19,marginTop:13,marginRight:22,borderRadius:5,borderColor:'#34D399',borderWidth:2}}>
+                            <View style={{height:35,backgroundColor:'#34D399'}}>
+                                <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>Hasil</Text>
+                            </View>
+                            <View style={{height:195,backgroundColor:'#D1FAE5'}}>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total Harga Kamar Hotel : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countHargaKamar},00</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Pajak Service : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{HotelResult},00</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total dibayar jika menginap 1 hari : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countsewaHotel},00</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Menginap Selama : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{countKamarWaktu} Hari</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total yang harus dibayar : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countTotalBayar},00</Text></Text>
+                            </View>
+                        </View>
+                        </>
+                        )}
                         
                 </View>
 
@@ -222,7 +223,7 @@ export default function Hotel ({ navigation }) {
                         </View>
                         {HotelResult2 && (
                         <>
-                        <View style={{marginLeft:19,marginTop:13,marginRight:21,borderRadius:5,borderColor:'#60A5FA',borderWidth:2}}>
+                        <View style={{marginLeft:19,marginTop:13,marginRight:22,borderRadius:5,borderColor:'#60A5FA',borderWidth:2}}>
                             <View style={{height:35,backgroundColor:'#60A5FA'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>Hasil</Text>
                             </View>

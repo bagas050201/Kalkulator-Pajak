@@ -48,7 +48,7 @@ export default function Restoran ({ navigation }) {
                         </View>
                         {RestoranResult && (
                         <>
-                        <View style={{marginLeft:19,marginTop:13,marginRight:21,borderRadius:5,borderColor:'#60A5FA',borderWidth:2}}>
+                        <View style={{marginLeft:19,marginTop:13,marginRight:22,borderRadius:5,borderColor:'#60A5FA',borderWidth:2}}>
                             <View style={{height:35,backgroundColor:'#60A5FA'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>HASIL</Text>
                             </View>

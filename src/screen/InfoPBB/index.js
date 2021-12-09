@@ -1,31 +1,30 @@
 /* eslint-disable prettier/prettier */
-import React from 'react';
+import React, {useState} from 'react';
 import {styles} from '../../assets/css';
-import {View, ScrollView,Image,Text,TouchableOpacity} from 'react-native';
+import {View, ScrollView,Image,Text,TouchableOpacity,Alert,TextInput} from 'react-native';
 import imageHome from '../../assets/icon/home.png';
 import imageOrder from '../../assets/icon/order.png';
 import imageInbox from '../../assets/icon/inbox.png';
 import imageAccount from '../../assets/icon/account.png';
-import PBBNormal from '../../components/molecules/PBBNormal';
+import { WebView } from 'react-native-webview';
 
-export default function PBB ({ navigation }) {
+export default function InfoPBB ({ navigation }) {
+    
     return (
         <View style={styles.container}>
                 {/*content*/}
                 <ScrollView style={{}}>
                     <View style={{backgroundColor:'#D8FCD6',width:250,marginTop:20,borderColor:'#34CC67',borderWidth:2,borderRadius:8,marginLeft:77}}>
-                        <Text style={{fontSize:19,textAlign:'center',marginTop:14,marginBottom:14,marginLeft:1,color:'#34CC67',fontWeight:'bold'}}>Pajak Bumi dan Bangunan</Text>
+                        <Text style={{fontSize:22,textAlign:'center',marginTop:14,marginBottom:14,marginLeft:1,color:'#34CC67',fontWeight:'bold'}}>Apa itu PBB-P2 ?</Text>
                     </View>
-                    <View style={{backgroundColor:'#34CC67',width:170,marginTop:15,borderColor:'#34CC67',borderWidth:2,borderRadius:5,marginLeft:114}}>
-                            <TouchableOpacity style={{}} onPress={() => navigation.navigate('InfoPBB')}>
-                                <Text style={{fontSize:16,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>
-                                    Informasi PBB
-                                </Text>
-                            </TouchableOpacity>
-                    </View>
-                    
-                    <PBBNormal/>
+                    <WebView
+                        source={{
+                        uri: 'https://bprd.jakarta.go.id/halaman/pajak-bumi-dan-bangunan-perdes',
+                        }}
+                        style={{margin:25,height:525,}}
+                    />
 
+                    
                 </ScrollView>
                     {/*bottom navigation*/}
                     

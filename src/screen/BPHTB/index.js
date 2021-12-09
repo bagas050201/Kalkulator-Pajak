@@ -7,7 +7,8 @@ import imageOrder from '../../assets/icon/order.png';
 import imageInbox from '../../assets/icon/inbox.png';
 import imageAccount from '../../assets/icon/account.png';
 import BPHTBHibah from '../../components/molecules/BPHTBHibah';
-
+import BPHTBWaris from '../../components/molecules/BPHTBWaris';
+import BPHTBNormal from '../../components/molecules/BPHTBNormal'
 export default function BPHTB ({ navigation }) {
     return (
         <View style={styles.container}>
@@ -16,15 +17,18 @@ export default function BPHTB ({ navigation }) {
                     <View style={{backgroundColor:'#FCDBD6',width:250,marginTop:20,borderColor:'#CC4F34',borderWidth:2,borderRadius:8,marginLeft:77}}>
                         <Text style={{fontSize:19,textAlign:'center',marginTop:14,marginBottom:14,marginLeft:1,color:'#CC4F34',fontWeight:'bold'}}>Bea Perolehan Hak atas Tanah dan Bangunan</Text>
                     </View>
-                    <View style={{backgroundColor:'#60A5FA',width:170,marginTop:15,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:114}}>
+                    <View style={{backgroundColor:'#CC4F34',width:170,marginTop:15,borderColor:'#CC4F34',borderWidth:2,borderRadius:5,marginLeft:114}}>
                             <TouchableOpacity style={{}} onPress={() => navigation.navigate('InfoBPHTB')}>
                                 <Text style={{fontSize:16,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>
                                     Informasi BPHTB
                                 </Text>
                             </TouchableOpacity>
                     </View>
-                    <BPHTBHibah/>
                     
+                    <BPHTBNormal/>
+                    <BPHTBHibah/>
+                    <BPHTBWaris/>
+
                 </ScrollView>
                     {/*bottom navigation*/}
                     

@@ -6,5 +6,6 @@ import Hotel from './Hotel';
 import Restoran from './Restoran';
 import InfoHotel from './infoHotel';
 import InfoBPHTB from './infoBPHTB';
+import InfoPBB from './InfoPBB';
 
-export {Home,PBB,BPHTB,Hotel,Restoran,InfoHotel,InfoBPHTB};
+export {Home,PBB,BPHTB,Hotel,Restoran,InfoHotel,InfoBPHTB,InfoPBB};

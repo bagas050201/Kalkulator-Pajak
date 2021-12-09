@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React, {useState} from 'react';
 import {styles} from '../../../assets/css';
-import {View, ScrollView,Image,Text,TouchableOpacity,Alert,TextInput} from 'react-native';
+import {View, Text,TouchableOpacity,Alert,TextInput} from 'react-native';
 import tailwind from 'tailwind-rn';
 
 export default function BPHTBHibah () {
@@ -192,7 +192,7 @@ export default function BPHTBHibah () {
                             id="Height"
                             type="text"
                             keyboardType="numeric"
-                            placeholder="Luas Bangunan yg tertera pada SSPD-BPHTB"
+                            placeholder="Luas Bangunan SSPD-BPHTB"
                             value={luasBangunanSSPD}
                             onChangeText={text => setluasBangunanSSPD(text)}
                         />
@@ -268,26 +268,26 @@ export default function BPHTBHibah () {
                         
                         {BPHTBResult && (
                         <>
-                        <View style={{marginLeft:19,marginTop:13,marginRight:21,borderRadius:5,borderColor:'#93C5FD',borderWidth:2}}>
+                        <View style={{marginLeft:19,marginTop:13,marginRight:22,borderRadius:5,borderColor:'#93C5FD',borderWidth:2}}>
                             <View style={{height:35,backgroundColor:'#93C5FD'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:50,marginBottom:5,color:'#FFFFFF'}}>DATA YANG ANDA INPUT</Text>
                             </View>
-                            <View style={{height:205,backgroundColor:'#DBEAFE'}}>
+                            <View style={{height:225,backgroundColor:'#DBEAFE'}}>
                                 
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Luas Tanah : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowluasTanah}</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Luas Bangunan SSPD : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowluasBangunanSSPD}</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Luas Bangunan Lapangan : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowluasBangunanLapangan}</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>NJOP Bumi: <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{ShowNJOPBumi},00</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>NJOP Bangunan : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{ShowNJOPBangunan},00</Text></Text>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Harga Transaksi : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{ShowTransaksi},00</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>NJOP Bumi: <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowNJOPBumi}</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>NJOP Bangunan : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowNJOPBangunan}</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Harga Transaksi : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowTransaksi}</Text></Text>
                             </View>
                         </View>
 
-                        <View style={{marginLeft:19,marginTop:13,marginRight:21,marginBottom:15,borderRadius:5,borderColor:'#F87171',borderWidth:2}}>
+                        <View style={{marginLeft:19,marginTop:13,marginRight:22,marginBottom:15,borderRadius:5,borderColor:'#F87171',borderWidth:2}}>
                             <View style={{height:35,backgroundColor:'#F87171'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:128,marginBottom:5,color:'#FFFFFF'}}>HASIL</Text>
                             </View>
-                            <View style={{height:655,backgroundColor:'#FEE2E2'}}>
+                            <View style={{height:715,backgroundColor:'#FEE2E2'}}>
                                 <View style={{backgroundColor:'#F87171',width:280,marginTop:15,borderColor:'#F87171',borderWidth:2,borderRadius:5,marginLeft:18}}>
                                     <Text style={{fontSize:17,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>DATA SSPD-BPHTB</Text>
                                 </View>
@@ -311,7 +311,7 @@ export default function BPHTBHibah () {
                                 <View style={{backgroundColor:'#60A5FA',width:280,marginTop:15,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:18}}>
                                     <Text style={{fontSize:17,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>HASIL PERHITUNGAN KURANG/LEBIH BAYAR BPHTB</Text>
                                 </View>
-                                <Text style={{fontWeight:'bold',fontSize:14,marginLeft:105,marginTop:12,}}><Text style={tailwind("bg-purple-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{Tarif}</Text></Text>
+                                <Text style={{fontWeight:'bold',fontSize:18,marginLeft:13,marginTop:12,}}><Text style={tailwind("bg-purple-200 rounded-full px-5 py-1 text-lg font-semibold text-gray-700 ")}>{Tarif}</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>BPHTB yang harus dibayar : <Text style={tailwind("bg-red-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{BPHTBResult},00</Text></Text>
                                 
                             </View>
