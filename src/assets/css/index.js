@@ -235,17 +235,17 @@ export const styles = StyleSheet.create({
       opacity: 0.1,
       borderRadius: 6,
     },
-    keqingIcon: {
+    bannerPajakIcon: {
       width: 380,
       height: 180,
       borderRadius: 6,
     },
     logoTimelineWrap: {
-      height: 26,
-      width: 90,
+      height: 76,
+      width: 40,
       position: 'absolute',
-      top: 16,
-      left: 16,
+      top:-5,
+      left: 17,
     },
     logoWhiteIcon: {
       height: undefined,
@@ -270,9 +270,9 @@ export const styles = StyleSheet.create({
       fontWeight: 'bold',
     },
     timelineNarasi: {
-      color: '#7a7a7a',
+      color: '#A7A7B0',
       fontSize: 15,
-      fontWeight: 'normal',
+      fontWeight: 'bold',
       textAlign: 'justify',
       marginBottom: 11,
     },
@@ -310,8 +310,8 @@ export const styles = StyleSheet.create({
       marginBottom: 8,
     },
     gofoodTimelineNarasi: {
-      fontSize: 15,
-      fontWeight: '400',
+      fontSize: 14,
+      fontWeight: '500',
       color: 'white',
     },
     buttonInline: {
@@ -327,11 +327,18 @@ export const styles = StyleSheet.create({
     logoGofood: {
       width: 90,
     },
+    TipsIcon: {
+      width:90,
+      height:100,
+      marginLeft:5,
+      marginTop: -5,
+      marginRight:-5,
+    },
     accountFacebookText: {
       fontSize: 20,
       fontWeight: 'bold',
       color: '#1c1c1c',
-      marginTop: 15,
+      marginTop: 7,
       marginBottom: 20,
     },
     facebookWrap: {
@@ -343,15 +350,15 @@ export const styles = StyleSheet.create({
       flex: 1,
     },
     facebookTextContentJudul: {
-      fontSize: 17,
+      fontSize: 16,
       fontWeight: 'bold',
       color: '#4a4a4a',
     },
     facebookTextContentDeskripsi: {
-      fontSize: 16,
+      fontSize: 13,
       fontWeight: 'normal',
       color: '#4a4a4a',
-      width: '70%',
+      textAlign:'justify',
     },
     logoGofoodkWrap: {
       height: 15,
@@ -370,9 +377,10 @@ export const styles = StyleSheet.create({
       justifyContent: 'space-between',
       marginBottom: 12,
       paddingHorizontal: 16,
+      marginTop: 15,
     },
     nearbyJudul: {
-      fontSize: 18,
+      fontSize: 17,
       fontWeight: 'bold',
       color: '#1c1c1c',
       marginBottom: 12,
