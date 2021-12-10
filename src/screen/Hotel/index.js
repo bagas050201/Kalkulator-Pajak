@@ -6,7 +6,6 @@ import imageHome from '../../assets/icon/home.png';
 import imageOrder from '../../assets/icon/order.png';
 import imageInbox from '../../assets/icon/inbox.png';
 import imageAccount from '../../assets/icon/account.png';
-import { WebView } from 'react-native-webview';
 import tailwind from 'tailwind-rn';
 
 export default function Hotel ({ navigation }) {
@@ -189,10 +188,10 @@ export default function Hotel ({ navigation }) {
                         {HotelResult && (
                         <>
                         <View style={{marginLeft:19,marginTop:13,marginRight:22,borderRadius:5,borderColor:'#FCD34D',borderWidth:2}}>
-                            <View style={{height:35,backgroundColor:'#FCD34D'}}>
+                            <View style={{height:40,backgroundColor:'#FCD34D'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>DATA YANG ANDA INPUT</Text>
                             </View>
-                            <View style={{height:145,backgroundColor:'#FEF3C7'}}>
+                            <View style={{height:150,backgroundColor:'#FEF3C7'}}>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Biaya Permalam : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowbiayaHotel}</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Berapa Hari : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowlamaWaktu}</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Berapa Kamar : <Text style={tailwind("bg-yellow-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowjumlahKamar}</Text></Text>
@@ -204,7 +203,7 @@ export default function Hotel ({ navigation }) {
                             <View style={{height:35,backgroundColor:'#34D399'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>Hasil</Text>
                             </View>
-                            <View style={{height:195,backgroundColor:'#D1FAE5'}}>
+                            <View style={{height:205,backgroundColor:'#D1FAE5'}}>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total Harga Kamar Hotel : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countHargaKamar},00</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Pajak Service : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{HotelResult},00</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total dibayar jika menginap 1 hari : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countsewaHotel},00</Text></Text>
@@ -227,7 +226,7 @@ export default function Hotel ({ navigation }) {
                             <View style={{height:35,backgroundColor:'#60A5FA'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>Hasil</Text>
                             </View>
-                            <View style={{height:45,backgroundColor:'#DBEAFE'}}>
+                            <View style={{height:50,backgroundColor:'#DBEAFE'}}>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Pajak yang harus dibayar : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{HotelResult2},00</Text></Text>
                             </View>
                         </View>

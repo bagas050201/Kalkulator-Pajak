@@ -206,7 +206,7 @@ export default function PBBNormal () {
                             <View style={{height:35,backgroundColor:'#6EE7B7'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:50,marginBottom:5,color:'#FFFFFF'}}>DATA YANG ANDA INPUT</Text>
                             </View>
-                            <View style={{height:145,backgroundColor:'#D1FAE5'}}>
+                            <View style={{height:155,backgroundColor:'#D1FAE5'}}>
                                 
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Luas Tanah : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowluasTanah}</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Luas Bangunan : <Text style={tailwind("bg-green-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>{ShowluasBangunanSSPD}</Text></Text>
@@ -219,8 +219,7 @@ export default function PBBNormal () {
                             <View style={{height:35,backgroundColor:'#818CF8'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:128,marginBottom:5,color:'#FFFFFF'}}>HASIL</Text>
                             </View>
-                            <View style={{height:395,backgroundColor:'#E0E7FF'}}>
-                                
+                            <View style={{height:450,backgroundColor:'#E0E7FF'}}>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Jumlah NJOP Bumi : <Text style={tailwind("bg-purple-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countBumiNJOPhitung},00</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Jumlah NJOP Bangunan : <Text style={tailwind("bg-purple-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{countBangunanNJOPhitung},00</Text></Text>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Total NJOP : <Text style={tailwind("bg-purple-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{hasilNJOPhitung},00</Text></Text>

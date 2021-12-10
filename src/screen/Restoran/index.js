@@ -52,7 +52,7 @@ export default function Restoran ({ navigation }) {
                             <View style={{height:35,backgroundColor:'#60A5FA'}}>
                                 <Text style={{fontSize:18,fontWeight:'bold',marginTop:2,marginLeft:12,marginBottom:5,color:'#FFFFFF'}}>HASIL</Text>
                             </View>
-                            <View style={{height:45,backgroundColor:'#DBEAFE'}}>
+                            <View style={{height:65,backgroundColor:'#DBEAFE'}}>
                                 <Text style={{fontWeight:'bold',fontSize:14,marginLeft:12,marginTop:12,}}>Pajak yang harus dibayar : <Text style={tailwind("bg-blue-200 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 ")}>Rp{RestoranResult},00</Text></Text>
                             </View>
                         </View>
@@ -75,7 +75,7 @@ export default function Restoran ({ navigation }) {
                             onChangeText={text => setOmsetPerbulan(text)}
                         />
                         <View style={{backgroundColor:'#60A5FA',width:170,marginTop:15,marginBottom:10,borderColor:'#60A5FA',borderWidth:2,borderRadius:5,marginLeft:86}}>
-                            <TouchableOpacity style={{}} onPress={hitungPajakRestoran}>
+                            <TouchableOpacity  onPress={hitungPajakRestoran}>
                                 <Text style={{fontSize:18,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>
                                     Hitung Pajak
                                 </Text>

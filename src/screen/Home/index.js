@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import React, {useState} from 'react';
+import React from 'react';
 import {styles} from '../../assets/css';
 import {View, ScrollView,Image,Text,TouchableOpacity } from 'react-native';
 import imageHome from '../../assets/icon/home.png';
@@ -31,11 +31,13 @@ const Home = (props) => {
                     <InformasiBerkas/>
                     <TipsPajak img={icon3} title="Tips !" title2="Pahami Manfaat Pajak Bagi dirimu dan sekitarmu" content="Suatu daerah terlihat bagus dan sejahtera bukan karena masyarakatnya yang memiliki pendapatan diatas rata-rata. Namun ada andil pajak yang dibayarkan oleh masyarakatnya. Pajak langsung didistribusikan ke daerahnya tersebut. Contoh pada bidang fasilitas umum, pajak dapat membantu pembangunan sekolah, rumah sakit, maupun jalan raya" />
                     <Text style={{fontSize:18,textAlign:'center',marginTop:14,marginBottom:3,color:'#000000',fontWeight:'bold'}}>Terimakasih</Text>
-                    <Text style={{fontSize:14,textAlign:'center',marginTop:2,marginBottom:17,color:'#000000'}}>Semoga Aplikasi Ini Bermanfaat untuk Kalian</Text>
+                    <Text style={{fontSize:15,textAlign:'center',marginTop:2,marginBottom:1,color:'#000000'}}>Semoga Aplikasi Ini Bermanfaat untuk Kalian</Text>
+                    <Text style={{fontSize:13,textAlign:'center',marginTop:2,marginBottom:8,color:'#A9A9A9'}}>Jika Aplikasi ini error, silahkan restart kembali aplikasinya</Text>
+                    
                     <View style={{backgroundColor:'#ADB9F7',width:380,marginTop:15,marginBottom:15,borderColor:'#ADB9F7',borderWidth:2,borderRadius:5,marginLeft:15}}>
                         <Text style={{fontSize:18,textAlign:'center',marginTop:5,marginBottom:8,color:'white',fontWeight:'bold'}}>Contact Developers : bagaspradana0201@gmail.com</Text>
                     </View>
-
+                    
                 </ScrollView>
                     {/*bottom navigation*/}
                     <View style={styles.bottomNav}>
