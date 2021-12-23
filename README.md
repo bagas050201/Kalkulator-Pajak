@@ -15,13 +15,13 @@ lorem.
 </p>
 
 ## Information ##
-:rocket: Link Playstore Aplikasi Kalkulator Pajak : [Playstore](https://play.google.com/store/apps/details?id=com.kalkulatorpajakbagaspradana)
+:rocket: Link Playstore Aplikasi : [Kalkulator Pajak](https://play.google.com/store/apps/details?id=com.kalkulatorpajakbagaspradana)
 
-:clapper: Video Testing dengan Narasumber 1 : [Tester 1]()
+:clapper: Video Testing dengan Narasumber 1 : [Bapak Bambang](https://youtu.be/ZFbcLR8ViNw)
 
-:clapper: Video Testing dengan Narasumber 2 : [Tester 2]()
+:clapper: Video Testing dengan Narasumber 2 : [Bapak Budi](https://youtu.be/9zptDrpl42o)
 
-:clapper: Video Testing dengan Narasumber 3 : [Tester 3]()
+:clapper: Video Testing dengan Narasumber 3 : [Bapak Yadi](https://www.youtube.com/watch?v=lMIUCUKadKo)
 
 ## Contributors ##
 
