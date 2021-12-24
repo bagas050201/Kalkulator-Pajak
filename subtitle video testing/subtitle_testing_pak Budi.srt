@@ -1,0 +1,479 @@
+1
+00:00:04,099 --> 00:00:15,500
+Bismillahirrahmanirrahim assalammualaikum warahmatullahi wabarakatuh
+
+2
+00:00:15,500 --> 00:00:23,990
+perkenalkan pak nama saya Muhammad Bagas Pradana saya merupakan mahasiswa ilmu komputer unj angkatan 2018 dengan nomor NIM yaitu
+
+3
+00:00:23,990 --> 00:00:25,990
+1313618015
+
+4
+00:00:26,059 --> 00:00:33,149
+maksud saya menghubungi bapak dikarenakan saya ingin melakukan wawancara
+
+5
+00:00:33,149 --> 00:00:37,500
+dengan bapak terkait aplikasi yang telah saya buat ini pak, saya telah membuat aplikasi
+
+6
+00:00:37,500 --> 00:00:41,640
+yang dinamakan kalkulator pajak, dimana aplikasi ini dapat menghitung PBB
+
+7
+00:00:41,640 --> 00:00:49,820
+pajak BPHTB, pajak hotel, dan pajak restoran. Bisa kita langsung cek aplikasinya ya pak
+
+8
+00:00:50,800 --> 00:00:54,800
+Nama Bapak, boleh izin diberitahukan pak
+
+9
+00:00:54,800 --> 00:00:57,300
+Nama saya Budi Prasetyo
+
+10
+00:00:57,409 --> 00:01:07,019
+Bapak di Perpajakan ini sudah bekerja berapa lama ya pak? Kurang lebih 10 tahun.. lama banget
+
+11
+00:01:08,434 --> 00:01:15,367
+Bapak di kantor ini masuk divisi mana ya pak?
+
+12
+00:01:15,450 --> 00:01:27,539
+kita ada di Unit Pelayanan Pemungutan Pajak Daerah Koja, kemudian saya ada di divisinya itu pendataan
+
+13
+00:01:28,534 --> 00:01:33,400
+berhubungan dengan data sekali ya pak, iya betul
+
+14
+00:01:34,769 --> 00:01:40,709
+Oke aplikasinya ada di
+
+15
+00:01:52,859 --> 00:02:00,400
+download dimana ini ya, di google playstore pak.. oke di playstore
+
+16
+00:02:11,329 --> 00:02:16,250
+oke namanya aplikasinya kalkulator pajak
+
+17
+00:02:18,019 --> 00:03:00,334
+oke pak karena masih aplikasi baru. Bapak ketik pub: Dev Viscy
+
+18
+00:03:03,334 --> 00:03:10,700
+Nah muncul pak itu kalkulator pajak. nah bapak bisa mengklik aplikasi itu. Install ya
+
+19
+00:03:14,700 --> 00:03:20,267
+nah itu sudah ada reviewnya juga. Iya sudah 9
+
+20
+00:03:21,134 --> 00:03:28,100
+Sekarang statusnya sedang menginstall, ok open ya
+
+21
+00:03:28,100 --> 00:03:31,356
+nah ini adalah halaman tampilan awalnya pak dari aplikasinya
+
+22
+00:03:31,620 --> 00:03:41,150
+ada pengertian dari perpajakan sendiri
+habis itu ada tips nya pak kepada para wajib pajak yang mungkin perlu
+
+23
+00:03:41,150 --> 00:03:45,949
+mengetahuinya pak, aplikasi kalkulatornya ini bisa dibukanya itu
+
+24
+00:03:45,949 --> 00:03:48,979
+menggunakan internet ataupun tidak
+menggunakan internet Pak jika bapak menggunakan internet
+
+25
+00:03:48,979 --> 00:03:54,360
+internet nanti bisa membuka fitur tambahan yaitu informasi
+
+26
+00:03:54,360 --> 00:03:59,430
+tambahan terkait perhitungan pajak yang sedang dihitung pak
+
+27
+00:03:59,430 --> 00:04:03,319
+seperti bagaimana sih pasal perhitungannya 
+pengertian lebih jelasnya apa sih Terus
+
+28
+00:04:03,319 --> 00:04:07,259
+kepada siapa saja sih pajak yang
+dikenakan nanti kalau pakai internet
+
+29
+00:04:07,259 --> 00:04:12,449
+bisa tahu, lebih lanjut ya
+mengenai informasi lebih dari pajaknya
+
+30
+00:04:12,449 --> 00:04:17,699
+ya kalau ya oke oke 
+berarti ini bisa digunakan offline ya
+
+31
+00:04:17,699 --> 00:04:23,819
+offline bisa pak, ini ada list diatas pak. Ini adalah list berkas-berkas
+
+32
+00:04:23,819 --> 00:04:27,639
+yang cukup penting perlu dibawa
+
+33
+00:04:38,649 --> 00:04:44,660
+Yan terurai singa detiknya senjata dan
+sakit karaoke Disini di bagian bawah ada
+
+34
+00:04:44,660 --> 00:04:51,670
+alisnya Pak ada tersengat Dede bphtb
+
+35
+00:04:51,670 --> 00:04:57,800
+kini kaum sini ya bb-nya bb-nya
+menghitung pajak mungkin iya dia ada
+
+36
+00:04:57,800 --> 00:05:05,860
+luas bumi + bangunan njape bumi dan
+Jokowi bangunan ia tak mungkin tetap
+
+37
+00:05:05,860 --> 00:05:13,240
+beres dulu luas bangunan misalkan
+
+38
+00:05:30,920 --> 00:05:36,560
+Hai hitung kaca lagi pilih yang
+Nah itu ada bagian atasnya warna hijau
+
+39
+00:05:36,560 --> 00:05:41,240
+itu nah ini pak di bawah hasilnya baru
+ya itu ada info tempat sebelumnya jadi
+
+40
+00:05:41,240 --> 00:05:50,230
+bapak bisa mengingat nih bagus banget
+menginput apa sih memuja Dewa hasilnya
+
+41
+00:05:50,439 --> 00:05:59,980
+bangunan total NJOP dan nilai jual kena
+pajak ah kita Oke kita deproject Oh iya
+
+42
+00:06:13,500 --> 00:06:19,569
+intensif ini Triton pernah sampai 0,3
+Pak di atas 10000000000 ingin semuanya
+
+43
+00:06:19,569 --> 00:06:25,240
+sudah tertarik ya jadi itungannya ya oh
+ya oke tetap bisa kalau this mantep
+
+44
+00:06:25,240 --> 00:06:30,269
+ternyata setiap informasi lebih baik
+mungkin jika pengen tau informasinya
+
+45
+00:06:30,269 --> 00:06:36,359
+ini lagi loading dan langsung masuk ke
+
+46
+00:06:36,360 --> 00:06:43,170
+please Oke ini kalau online ya kita bisa
+
+47
+00:06:43,170 --> 00:06:53,550
+mengemasnya jelas ya oke bisa-bisa Bisa
+temannya di bawah terhadap bphtb kece
+
+48
+00:06:55,560 --> 00:07:08,490
+sama seperti tadi dia ada pertengahan
+untuk jual-beli Waris dan hibah
+
+49
+00:07:10,709 --> 00:07:22,810
+yakni jual-beli Hai Akbar udah lelang ya
+sama adek kita coba ya ya Pak luas
+
+50
+00:07:25,779 --> 00:07:30,279
+luas bangunan lapangan sama Allah Ya
+
+51
+00:07:30,279 --> 00:07:34,809
+berarti ini mengakomodir untuk ini ya
+
+52
+00:07:39,848 --> 00:07:46,728
+terwujud A800 harta transaksikan kadang
+ada user yang jual tanahnya diatas harga
+
+53
+00:07:46,728 --> 00:07:53,139
+dengan aslinya tuh biasanya disini tapi
+ada user yang kagak mau ngasih tahu iya
+
+54
+00:08:03,889 --> 00:08:10,800
+ke harga transaksinya kalau nggak mau
+diisi ice 0pac key misalkan tidak ada
+
+55
+00:08:10,800 --> 00:08:16,490
+kita channel ya ya oke kita hitung ya
+
+56
+00:08:16,699 --> 00:08:23,209
+data yang anda input ya nih kalau enggak
+pakai ini kadang lupa nih sedang habis
+
+57
+00:08:23,209 --> 00:08:29,639
+hasil data nah disini mengakomodasi dua
+yang di bagian atas peti itu maksudnya
+
+58
+00:08:29,639 --> 00:08:35,820
+data dimana masih berupa surat yang
+diajukan oleh usernya pak jadi kita
+
+59
+00:08:35,820 --> 00:08:39,778
+hanya tahu data teori yang diajukan ke
+perpajakannya dan kita ngatoni di
+
+60
+00:08:39,778 --> 00:08:47,429
+lapangannya bangunan di atau ngengat 334
+takutnya misalkan yang data juicer
+
+61
+00:08:47,429 --> 00:08:54,000
+diinput masih di lantai satu data awal
+dan tahap pengecekan ya iya oh iya iya
+
+62
+00:08:54,000 --> 00:08:58,610
+Hai PCB dengan kurang lebih baik bbpjn
+
+63
+00:08:58,610 --> 00:09:06,029
+mungkin ini kekurangan ya dari hasil ini
+ya Iya Pak ternyata setelah dicek rumah
+
+64
+00:09:06,029 --> 00:09:11,370
+dia meningkat nih jadinya Ya udah hasil
+data-data baru ditandatangan Makasih ya
+
+65
+00:09:11,370 --> 00:09:16,500
+iya iya demikian ini himbauan semudah
+mengakomodir untuk kategori yang di
+
+66
+00:09:16,500 --> 00:09:21,080
+bphtb ya Iya Papa yang layak sudah ke
+
+67
+00:09:21,080 --> 00:09:26,009
+restoran-restoran ini diajukan kepada
+pihak yang punya restoran Biasanya sih
+
+68
+00:09:26,009 --> 00:09:30,809
+yang tahu datanya hingga pendapatan
+perberasan Dafa iya nya kalau restoran
+
+69
+00:09:30,809 --> 00:09:38,840
+Tuhan kita tenaganya 10% ya di restoran
+langsung masukin omset ya omzet
+
+70
+00:09:44,299 --> 00:09:53,980
+pilih harus dibayar 20 juta iya oh Yoga
+ada yang temennya Disini di atasnya kami
+
+71
+00:09:53,980 --> 00:10:02,799
+Hai nah iya betul bisa asem mungkin
+nah di atasnya dapat hotel di hotel ya
+
+72
+00:10:02,799 --> 00:10:09,269
+nge-lag elektronik pajak hotel ini
+mengaku miris 2/2 bagi2 juicer Pak jadi
+
+73
+00:10:09,269 --> 00:10:15,240
+pelanggan juga bisa ngitung disini dan
+dibagian paling bantu ada untuk dia
+
+74
+00:10:15,240 --> 00:10:20,799
+kau oke untuk pelanggan tuh disitu ada
+ini yang kuning ini ya kuning ke
+
+75
+00:10:20,799 --> 00:10:24,820
+pelanggan jadi dia ditanya ada biaya per
+malamnya berapa berapa hari demam pesan
+
+76
+00:10:24,820 --> 00:10:30,549
+berapa kamar dan jika memang atasnya Fit
+saatnya dari pelayanannya bisa di siffa
+
+77
+00:10:30,549 --> 00:10:38,379
+saja ya Iya GB bermalam misalkan 500.000
+Terus berapa hari asalkan tujuh hari
+
+78
+00:10:38,379 --> 00:10:50,219
+sabtu-minggu ya Iya pak Berapa kamar 100
+tidak ada service Jatimulya Oke tunggu
+
+79
+00:10:58,409 --> 00:11:02,779
+3551043 ingat selama tiga hari batin
+
+80
+00:11:02,779 --> 00:11:07,370
+oh ya terus macam saya bisa karena
+memang no jadi 0s total yang harus
+
+81
+00:11:07,370 --> 00:11:16,120
+dibayar Jika Bapak menginap satu hari
+itu itu sekian Pak tip total dibayar
+
+82
+00:11:16,120 --> 00:11:25,000
+jika suatu hari pak lemas Rp50.000 kalau
+bapak nginep dicuri Jeju 80.000 itu juga
+
+83
+00:11:27,669 --> 00:11:35,870
+menjadi user bisa tahu nih kalau diminum
+Sehari berapa sih dia berak kau jari
+
+84
+00:11:35,870 --> 00:11:41,320
+tiba-tiba ada itu pacak untuk meeting
+
+85
+00:11:42,019 --> 00:11:50,948
+mungkin mungkin langsung jadi omset
+langsung ya Iya omzet perbulannya
+
+86
+00:12:02,259 --> 00:12:05,909
+Hai nah di bagian paling atas ada
+
+87
+00:12:05,909 --> 00:12:14,998
+sama seperti ini Hotel fitur nah
+informasi pajak hotel divert atas Lahm
+
+88
+00:12:26,609 --> 00:12:31,589
+dengan punya langsung link ke ini ya
+
+89
+00:12:31,589 --> 00:12:37,829
+Oke Oke Mantap sudah selesai ini
+
+90
+00:12:50,668 --> 00:12:56,288
+digunakan atau tampilannya bagus atau
+
+91
+00:13:00,440 --> 00:13:06,450
+Oke yang maksudnya karena pajak itu kan
+berkaitan dengan hitung-hitungan itu
+
+92
+00:13:06,450 --> 00:13:10,909
+Jadi kalau menurut saya sangat membantu
+
+93
+00:13:10,909 --> 00:13:16,230
+nantinya ini bisa digunakan sama wajib
+pajak itu dia ketika mau mungkin mau
+
+94
+00:13:16,230 --> 00:13:21,590
+transaksi dia harusnya PIN uang berapa
+
+95
+00:13:21,590 --> 00:13:29,629
+sangat membantu jadi dia udah bisa
+siapin nol sekian sekian gitu jadi satu
+
+96
+00:13:55,139 --> 00:14:01,439
+Duh Duck nah bertanya apakah ada
+
+97
+00:14:03,059 --> 00:14:09,929
+sementara udah oke cuman mungkin
+
+98
+00:14:15,649 --> 00:14:21,559
+tampilannya aja boleh warnanya di kalau
+
+99
+00:14:21,559 --> 00:14:26,809
+siswa Suami jual jadi kadang ada yang
+
+100
+00:14:26,809 --> 00:14:38,299
+warna-warna yang ini warna aja sih
+diceraikan itu aja Nah itu aja sih
+
+101
+00:14:47,720 --> 00:14:59,067
+kalau dari sini mungkin tinggal
+ditambahin ini aja ya karena kalau kita  kan pajak masih ada Pajak reklame, mungkin ini perlu ditambahkan
+
+102
+00:14:59,120 --> 00:15:09,067
+kemudian parkir juga bisa , karena dari hitungan yang ini
+
+103
+00:15:09,230 --> 00:15:25,067
+semuanya udah-udah Sangat rapih, jadi kayaknya kalau ditambahkan lebih mantap lagi. Baik mungkin hanya itu saja pak, terimakasih banyak ya pak atas bantuannya dan atas wawancaranya
+
+104
+00:15:25,100 --> 00:15:32,000
+semoga aplikasi ini bisa bermanfaat bagi
+Bappeda DKI Jakarta dan serta bagi UPPPD Koja
+
+105
+00:15:32,267 --> 00:15:40,339
+semoga BAPENDA DKI Jakarta dan UPPPD Koja bakal semakin maju dengan aplikasi ini dan dilancarkan segala urusannya
+
+106
+00:15:40,339 --> 00:15:53,000
+Oke terima kasih banyak Pak Budi atas wawancaranya, mohon maaf pak jika saya mengganggu waktu bapak. Terimakasih ya pak wassalammualaikum warahmatullahi wabarakatuh
+
