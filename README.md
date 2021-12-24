@@ -58,11 +58,15 @@ Provinsi DKI Jakarta tentang Himpunan Peraturan Pajak Daerah Tahun 2019 and from
 ## Information ##
 :rocket: Link Playstore Aplikasi : [Kalkulator Pajak](https://play.google.com/store/apps/details?id=com.kalkulatorpajakbagaspradana)
 
-:clapper: Video Testing dengan Narasumber 1 : [Bapak Bambang](https://youtu.be/ZFbcLR8ViNw)
+:office: Lokasi Wawancara : UPPPD Kecamatan Koja
 
-:clapper: Video Testing dengan Narasumber 2 : [Bapak Budi](https://youtu.be/9zptDrpl42o)
+:date: Hari/Tanggal : Kamis/23 Desember 2021
 
-:clapper: Video Testing dengan Narasumber 3 : [Bapak Yadi](https://www.youtube.com/watch?v=lMIUCUKadKo)
+:clapper: Video Testing dengan Narasumber 1 pada pukul 09.00  WIB : [Bapak Bambang](https://youtu.be/ZFbcLR8ViNw)
+
+:clapper: Video Testing dengan Narasumber 2 pada pukul 09.50  WIB : [Bapak Budi](https://youtu.be/9zptDrpl42o)
+
+:clapper: Video Testing dengan Narasumber 3 pada pukul 13.00  WIB : [Bapak Yadi](https://www.youtube.com/watch?v=lMIUCUKadKo)
 
 :speech_balloon: Subtitle Video : [Subtitle](https://github.com/bagas050201/Kalkulator-Pajak/tree/main/subtitle%20video%20testing)
 
