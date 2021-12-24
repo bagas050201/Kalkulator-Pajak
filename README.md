@@ -23,6 +23,8 @@ lorem.
 
 :clapper: Video Testing dengan Narasumber 3 : [Bapak Yadi](https://www.youtube.com/watch?v=lMIUCUKadKo)
 
+:speech_balloon: Subtitle Video : [subtitle](https://github.com/bagas050201/Kalkulator-Pajak/tree/main/subtitle%20video%20testing)
+
 ## Contributors ##
 
 * **Muhammad Bagas Pradana** - *Ilmu Komputer Universitas Negeri Jakarta* - [bagas050201](https://github.com/bagas050201)
