@@ -51,12 +51,15 @@ Provinsi DKI Jakarta tentang Himpunan Peraturan Pajak Daerah Tahun 2019 and from
 
 ### Tester 3
 - Nama : **Suryadi**
+- Nama Panggilan : **Yadi**
 - Jabatan : **Pegirim Surat Pajak UPPPD Kecamatan Koja, Kota Administrasi Jakarta Utara**
 - Lama Pengabdian di Perpajakan : **2006 - Sekarang (15 Tahun)**
 
 
 ## Information ##
 :rocket: Link Playstore Aplikasi : [Kalkulator Pajak](https://play.google.com/store/apps/details?id=com.kalkulatorpajakbagaspradana)
+
+:bookmark_tabs: Privacy Policy : [Link](https://www.privacypolicyonline.com/live.php?token=TGTpsWJMUmpGGmE6NZNApoyJqxFqsWtX)
 
 :office: Lokasi Wawancara : UPPPD Kecamatan Koja
 
@@ -66,9 +69,13 @@ Provinsi DKI Jakarta tentang Himpunan Peraturan Pajak Daerah Tahun 2019 and from
 
 :clapper: Video Testing dengan Narasumber 2 pada pukul 09.50  WIB : [Bapak Budi](https://youtu.be/9zptDrpl42o)
 
-:clapper: Video Testing dengan Narasumber 3 pada pukul 13.00  WIB : [Bapak Yadi](https://www.youtube.com/watch?v=lMIUCUKadKo)
+:clapper: Video Testing dengan Narasumber 3 pada pukul 13.00  WIB : [Bapak Suryadi](https://www.youtube.com/watch?v=lMIUCUKadKo)
 
-:speech_balloon: Subtitle Video : [Subtitle](https://github.com/bagas050201/Kalkulator-Pajak/tree/main/subtitle%20video%20testing)
+:speech_balloon: Subtitle Video  Narasumber 1 : [Bapak Bambang](https://github.com/bagas050201/Kalkulator-Pajak/blob/main/subtitle%20video%20testing/subtitle_testing_pak%20Bambang.srt)
+
+:speech_balloon: Subtitle Video  Narasumber 2 : [Bapak Budi](https://github.com/bagas050201/Kalkulator-Pajak/blob/main/subtitle%20video%20testing/subtitle_testing_pak%20Budi.srt)
+
+:speech_balloon: Subtitle Video  Narasumber 3 : [Bapak Suryadi](https://github.com/bagas050201/Kalkulator-Pajak/blob/main/subtitle%20video%20testing/subtitle_testing_pak%20yadi.srt)
 
 ## Developers ##
 
