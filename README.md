@@ -25,15 +25,6 @@ Tax calculations in this application take reference calculations from Buku Badan
 Provinsi DKI Jakarta tentang Himpunan Peraturan Pajak Daerah Tahun 2019 and from the experience of this application developer who internship at the regional tax office
 </p>
 
-## Technology used ##
-- [x] React Native
-
-## Target Segment ##
-- [x] users who work in the field of Indonesian taxation
-- [x] users who really wants to know the tax given to him on his assets 
-
-## Advance Topic ##
-- [x] Webview
 
 ## Tester Profiles ##
 
